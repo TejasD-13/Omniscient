@@ -118,7 +118,7 @@ export default function YtPdfPptNotesPage() {
       {explanation && (
         <div className="mt-4">
           <h2 className="text-xl font-bold mb-2">Explanation:</h2>
-          <p className="text-gray-800">{explanation}</p>
+          <div className="text-gray-800 border p-4 rounded-md">{explanation}</div>
         </div>
       )}
     </div>
