@@ -38,7 +38,7 @@ const Footer = () => {
             <Image src={Logo} width={120} height={120} alt="Footer Logo" className="rounded-r-full rounded-l-lg"/>
           </a>
           <p className="mt-6 text-sm leading-6 text-gray-300 sm:max-w-sm">
-            Discover new ways to make a positive impact on society with our platform. Explore the latest campaigns and contribute to causes that matter.
+            Discover new ways to learn anything with our platform. Explore the latest youtube tutorials, interact and get your doubts solved in chat rooms, get a study plan tailored to your schedule and much more.
           </p>
           <div className="flex items-center gap-4 mt-6">
             {socialMedia.map((icon) => (

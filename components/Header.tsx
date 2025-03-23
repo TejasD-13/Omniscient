@@ -47,11 +47,11 @@ const Header = () => {
         </Link>
         <ul className="flex flex-row items-center gap-4">
           <li className="relative group">
-            <Link href="/all-campaigns">
+          <Link href="/yt-pdf-ppt-notes">
             <button className="text-base cursor-pointer capitalize text-gray-500">
-              All Campaigns
+              YT, PDF, PPT Notes
             </button>
-            </Link>
+          </Link>
           </li>
           <li className="relative group">
             <button className="text-base cursor-pointer capitalize text-gray-500">
@@ -65,13 +65,6 @@ const Header = () => {
                 <Link href="/doubts/all-doubts">All Doubts</Link>
               </li>
             </ul>
-          </li>
-          <li className="relative group">
-          <Link href="/impact-score">
-            <button className="text-base cursor-pointer capitalize text-gray-500">
-              Impact Score
-            </button>
-          </Link>
           </li>
           <li className="relative group">
             <Link href="/admin/dashboard">
